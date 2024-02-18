@@ -28,7 +28,7 @@
     <div class="container w-50 shadow-sm bg-body-tertiary rounded mt-2">
         <div class="row">
             <div class="col">
-                <h1 class="mb-0"><span>0</span> to <span>0</span></h1>
+                <h1 class="mb-0"><span id="score-1">0</span> to <span id="score-2">0</span></h1>
                 <p>Use the buttons below to keep the score.</p>
                 <form>
                     <label for="turn-count" class="form-label">Playing To</label>
@@ -45,9 +45,9 @@
         </div>
         <div class="row">
             <div class="btn-group m-0 p-0" role="group" aria-label="controls">
-                <button type="button" class="btn btn-success">+1 to Player 1</button>
-                <button type="button" class="btn btn-primary">+1 to Player 2</button>
-                <button type="button" class="btn btn-danger">Reset</button>
+                <button type="button" class="btn btn-success" id="player1-btn">+1 to Player 1</button>
+                <button type="button" class="btn btn-primary" id="player2-btn">+1 to Player 2</button>
+                <button type="button" class="btn btn-danger" id="reset">Reset</button>
             </div>
         </div>
     </div>
