@@ -39,4 +39,8 @@ resetBtn.addEventListener('click', function() {
 
 dropdown.addEventListener('change', function() {
     turnCount = Number(dropdown.value);
+    score1.innerText = 0;
+    score2.innerText = 0;
+    score1.className = "";
+    score2.className = "";
 })
